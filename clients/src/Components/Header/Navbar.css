@@ -1,0 +1,21 @@
+.menu {
+  position: relative; /* Add this */
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; /* Remove redundant line */
+  background-color: #161616;
+  color: white;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+input {
+  background-color: #161616;
+  width: 200px;
+  height: 50px;
+}
+
+
+
